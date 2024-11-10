@@ -1,0 +1,34 @@
+Advanced Number Guessing Game
+Welcome to the Advanced Number Guessing Game! This interactive Python project is designed to test and improve your guessing skills by allowing you to guess a random number within a specified range and difficulty level. Each difficulty setting offers a unique challenge with varying limits on guesses and range sizes. This game also records your score and keeps a history of your performances, making it a great way to track improvement over time.
+
+Table of Contents
+Features
+Installation
+Usage
+Game Rules
+Score History
+Customization
+Future Improvements
+Features
+Difficulty Levels: Choose between four difficulty levels (Easy, Medium, Hard, Expert).
+Real-time Feedback: Get hints on how close your guesses are to the target number.
+Score System: Scores decrease with each incorrect guess, with a base score starting at 100.
+Game History Logging: Each session is saved in a JSON file with date, score, and difficulty level.
+Play Again Option: Play multiple rounds in a single session or quit after each game.
+Game Rules
+Select Difficulty:
+
+Easy: 1-10 range, unlimited guesses.
+Medium: 1-50 range, 10 guesses.
+Hard: 1-100 range, 7 guesses.
+Expert: 1-500 range, 5 guesses.
+Scoring:
+
+You start with a base score of 100, and each incorrect guess deducts points.
+The fewer guesses taken, the higher your score.
+Feedback:
+
+Feedback is provided for each guess, indicating if you're "very close," "close," or "far" from the target.
+Game Over:
+
+The game ends when you guess correctly or run out of attempts (if limited by difficulty).
